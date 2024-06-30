@@ -50,6 +50,8 @@ html {
   -ms-flex-align: start;
   align-items: flex-start;
   margin-bottom: 30px;
+  color: black;
+  margin-top: 30px;
 }
 
 .heading_container h2 {
@@ -57,6 +59,7 @@ html {
   font-weight: bold;
   margin-bottom: 0;
 }
+
 
 
 /* p{
@@ -185,7 +188,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 20px;
-  color: #ffffff;
+  color: white;
   text-align: center;
   text-transform: uppercase;
   border-radius: 5px;
@@ -200,6 +203,7 @@ a:focus {
 .active {
   color: orange !important;
 }
+
 
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -1021,7 +1025,7 @@ a:focus {
 }
 
 .blog-header {
-  background-color: #0f054c;
+  background-color: #2f55d4;
 }
 
 .blog-hero-area {
@@ -1170,9 +1174,9 @@ a:focus {
   /* border:1px solid black; */
 }
 
-.blog-header {
+/* .blog-header {
   background-color: #2f55d4 !important;
-}
+} */
 
 .sub_page .hero_area {
   background-color: #2f55d4 !important;
@@ -1550,16 +1554,25 @@ p {
 /* mobile view............... */
 @media screen and (min-width:280px) and (max-width:500px) {
 
-  .header_section{
+  .header_section {
     background-color: #ffffff;
   }
 
-  .header_section .navbar-toggler{
+
+  .main1 {
+    color: black;
+  }
+
+  /* .main2 {
+    color: white;
+  } */
+
+  .header_section .navbar-toggler {
     color: #000000;
     border: 0;
     box-shadow: none;
     line-height: 2;
-  } 
+  }
 
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     color: #000000;
@@ -1569,6 +1582,7 @@ p {
     display: none;
   }
 
+ 
   /* review.................. */
   .client_section .box .detail-box {
     height: 62vh !important;
@@ -1592,10 +1606,10 @@ p {
     height: 2rem !important;
     width: 10rem !important;
     padding-left: 0 !important;
-    
-
   }
 
+
+  
   /* hero area ends */
 
 
@@ -1608,27 +1622,28 @@ p {
 
   /* whatsapp and enroll button */
 
-  .whats-enroll{
-    flex-direction:row;
-    
-      }
-      
-      .whats{
-        font-size: 13px;
-      }
-      .enroll{
-        font-size: 13px;
-      }
+  .whats-enroll {
+    flex-direction: row;
 
-      .fa-whatsapp{
-        font-size: 13px !important;
-        
-        
-        }
-        
-        .fa-check{
-          font-size: 13px !important;
-          }
+  }
+
+  .whats {
+    font-size: 13px;
+  }
+
+  .enroll {
+    font-size: 13px;
+  }
+
+  .fa-whatsapp {
+    font-size: 13px !important;
+
+
+  }
+
+  .fa-check {
+    font-size: 13px !important;
+  }
 
   .carousel-item h1 {
     font-size: 23px;
